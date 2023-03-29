@@ -1,0 +1,275 @@
+.download-page {
+    background-color: #0b0b0c;
+    background-image: url("../assets/img/bg-download.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 0;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+.required {
+    align-items: center;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+.required img {
+    width: 0.8em;
+    justify-content: center;
+    vertical-align: middle;
+    margin-right: 1em;
+}
+
+
+.required table {
+    border-collapse: collapse;
+    border: 0;
+}
+
+.required  thead {
+    background-color: #2a1e18; 
+    color: #fff;
+    
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.title {
+    color: #fff;
+    text-align: left;
+}
+.required table {
+    -webkit-box-shadow: 0em 1em 1em rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0em 1em 1em rgba(8, 8, 8, 0.1);
+    box-shadow: 0em 1em 1em rgba(0, 0, 0, 0.1);
+}
+.required table,
+th,
+td {
+    border: 0px ;
+    padding: 1em;
+    font-size: 1em;
+    width: 81vw;
+    color: #000;
+}
+
+.required tr {
+    background-color: #e2d9ca;
+    
+
+}
+
+.required tr:hover {
+    filter: brightness(105%);
+}
+
+
+.required button{
+    background-color: rgba(78, 58, 41, 0.8);
+    border: 0.1em solid #634028;
+    width: 5em;
+    height: 5em;
+    border-radius: 0.6em;
+    margin-right: 1em;
+    padding: 1em;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.required button:hover {
+    filter: brightness(150%);
+    transform: translateY(-0.3em);
+    transition: 0.6s;
+}
+.button-download img {
+    width: 3em;
+}
+
+.required h1{
+    color: #181210;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.required ul{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.required li{
+    color: #181210;
+    font-size: 1em;
+}
+
+.box-table {
+    width: 100%;
+
+    -webkit-box-shadow: 0em 1em 1em rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0em 1em 1em rgba(0, 0, 0, 0.05);
+    box-shadow: 0em 1em 1em rgba(0, 0, 0, 0.05);
+}
+
+.field-indicator {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #675544;
+    padding: 1em;
+    
+}
+.title {
+    color: #fff8f4;
+    font-size: 1em;
+}
+
+.item-box>div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0.5em;
+    background-color: #e2d9ca;
+}
+
+.item-box span{
+    color: #675544;
+}
+
+.item-box>div:hover{
+    filter: brightness(110%);
+}
+
+
+@media (max-width: 920px)  {
+
+    .title {
+        color: #fff8f4;
+        font-size: 2.5em;
+    }
+
+    .item-box span{
+        font-size: 2em;
+    }
+    
+
+    .download-page {
+        background-color: #0b0b0c;
+        background-image: url("../assets/img/bg-download.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        top: 0;
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1s;
+    }
+    
+    .required {
+        align-items: center;
+        padding-left: 4em;
+        padding-right: 4em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    
+    }
+    
+    .required img {
+        width: 0.8em;
+        justify-content: center;
+        vertical-align: middle;
+        margin-right: 1em;
+    }
+    
+    
+    .required table {
+        border-collapse: collapse;
+        border: 0;
+    }
+    
+    .required  thead {
+        background-color: #2a1e18; 
+        color: #fff;
+        
+    }
+    
+    .bold {
+        font-weight: 600;
+    }
+    
+    .title {
+        color: #fff;
+        text-align: left;
+    }
+    .required table {
+        -webkit-box-shadow: 0em 1em 1em rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0em 1em 1em rgba(8, 8, 8, 0.1);
+        box-shadow: 0em 1em 1em rgba(0, 0, 0, 0.1);
+        
+    }
+    .required table,
+    th,
+    td {
+        border: 0px ;
+        padding: 1em;
+        font-size: 4em;
+        width: 81vw;
+        color: #000;
+    }
+    
+    .required tr {
+        background-color: #e2d9ca;
+        
+    
+    }
+    
+    .required tr:hover {
+        filter: brightness(105%);
+    }
+    
+    
+    .required button{
+        background-color: rgba(78, 58, 41, 0.8);
+        border: 0.1em solid #634028;
+        width: 10em;
+        height: 10em;
+        border-radius: 0.6em;
+        margin-right: 1em;
+        padding: 1em;
+        cursor: pointer;
+        transition: 0.6s;
+    }
+    
+    .required button:hover {
+        filter: brightness(150%);
+        transform: translateY(-0.3em);
+        transition: 0.6s;
+    }
+    .button-download img {
+        width: 5em;
+    }
+    
+    .required h1{
+        color: #181210;
+        margin-top: 1em;
+        font-size: 3em;
+    }
+    
+    .required ul{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+    .required li{
+        color: #181210;
+        font-size: 2em;
+    }
+    
+
+  }
