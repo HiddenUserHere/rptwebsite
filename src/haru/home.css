@@ -274,7 +274,7 @@
     transform: scale(1.4);
 }
 
-.sliderclass-box {
+.slider-class-box {
     display: flex;
     flex-wrap: nowrap;
     transition: 200ms ease-in-out;

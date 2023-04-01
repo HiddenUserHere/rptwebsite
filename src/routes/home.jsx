@@ -2,7 +2,7 @@ import React from "react";
 import '../haru/home.css';
 import { Link } from "react-router-dom";
 import News from "../components/News";
-import SliderClass from "../components/SliderClass";
+import SliderClass from "../components/SliderClass/index.jsx";
 import '../haru/app.css';
 
 
