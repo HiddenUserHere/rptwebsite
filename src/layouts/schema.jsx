@@ -15,7 +15,11 @@ const leftContent = [
     text: 'Game Guides', columns: [
       {
         options: [
-          { text: 'Mixing', isLink: true, redirect: '/notice' }
+          {
+            text: 'Experience Table',
+            isLink: true,
+            redirect: '/notice'
+          }
         ]
       },
     ]

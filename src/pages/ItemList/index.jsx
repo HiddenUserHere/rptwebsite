@@ -1,5 +1,5 @@
 import React from 'react';
-import SimpleGuide from '../../../components/SimpleGuide/index.jsx';
+import SimpleGuide from '../../components/SimpleGuide/index.jsx';
 import { getItemListUrl } from './settings.js';
 
 const ItemList = () => {

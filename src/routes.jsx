@@ -5,9 +5,9 @@ import ErrorPage from './routes/ErrorPage.jsx';
 import Home from './pages/Home/index.jsx';
 import Download from './pages/Download/index.jsx';
 import Ranking from './pages/Ranking/index.jsx';
-import MixList from './pages/Guides/MixList/index.jsx';
+import MixList from './pages/MixList/index.jsx';
 import Notice from './routes/notice.jsx';
-import ItemList from './pages/Guides/ItemList/index.jsx';
+import ItemList from './pages/ItemList/index.jsx';
 
 
 const AppRoutes = createBrowserRouter([
