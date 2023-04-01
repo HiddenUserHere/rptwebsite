@@ -12,6 +12,11 @@ const leftContent = [
     redirect: '/download'
   },
   {
+    text: 'Rankings',
+    isLink: true,
+    redirect: '/ranking',
+  },
+  {
     text: 'Game Guides', columns: [
       {
         options: [
@@ -39,11 +44,6 @@ const leftContent = [
     isLink: true,
     redirect: '/item-list',
   },
-  {
-    text: 'Ranking',
-    isLink: true,
-    redirect: '/ranking',
-  }
 ];
 
 const rightContent = [
