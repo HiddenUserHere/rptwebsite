@@ -55,8 +55,8 @@ const Navbar = ({ config }) => {
           <header className="header-main">
 
             <div className="header-logo-box">
-              {config.logo_1}
-              {config.logo_2}
+              {config.logoOffScroll}
+              {config.logoOnScroll}
             </div>
 
             <div className="options-box">
