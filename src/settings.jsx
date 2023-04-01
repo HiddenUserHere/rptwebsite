@@ -9,9 +9,7 @@ export const DISCORD_URL = 'https://discord.gg/R47RarCebp';
 
 export const GAME_SERVER_BASE_URL = 'https://user.regnum.world';
 
-export const getRankingUrl = () => {
-  return new URL('guide/rankings.php', GAME_SERVER_BASE_URL).toString();
-}
+export const getRankingUrl = () => new URL('guide/rankings.php', GAME_SERVER_BASE_URL).toString();
 
 /* Game Download */
 
