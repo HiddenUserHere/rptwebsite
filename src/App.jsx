@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/index.jsx';
 import Footer from './components/Footer/index.jsx';
 import SocialLinks from './components/SocialLinks';
-import schema from './layouts/schema.jsx';
+import { schema } from './components/Navbar/settings.jsx';
 
 
 function App() {
