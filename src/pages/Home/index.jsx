@@ -3,7 +3,7 @@ import './styles.css';
 import { Link } from 'react-router-dom';
 import News from '../../components/News.jsx';
 import SliderClass from '../../components/SliderClass/index.jsx';
-import '../../haru/app.css';
+import '../../styles.css';
 import { getRegisterUrl } from '../../settings.jsx';
 
 const Home = () => {
