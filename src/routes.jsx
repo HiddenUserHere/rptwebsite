@@ -9,6 +9,8 @@ import MixList from './pages/MixList/index.jsx';
 import ItemList from './pages/ItemList/index.jsx';
 import ExperienceTable from './pages/Guides/ExperienceTable/index.jsx';
 import CharacterSkills from './pages/Guides/CharacterSkills/index.jsx';
+import DiscordRules from './pages/Rules/DiscordRules/index.jsx';
+import GameRules from './pages/Rules/GameRules/index.jsx';
 
 
 const AppRoutes = createBrowserRouter([
@@ -47,6 +49,16 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'character-skills',
         element: <CharacterSkills />
+      },
+
+      // Rules
+      {
+        path: 'discord-rules',
+        element: <DiscordRules />,
+      },
+      {
+        path: 'game-rules',
+        element: <GameRules />,
       }
     ],
   },

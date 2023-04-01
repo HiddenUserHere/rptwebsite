@@ -17,7 +17,8 @@ const leftContent = [
     redirect: '/ranking',
   },
   {
-    text: 'Game Guides', columns: [
+    text: 'Game Guides',
+    columns: [
       {
         options: [
           {
@@ -44,6 +45,25 @@ const leftContent = [
     isLink: true,
     redirect: '/item-list',
   },
+  {
+    text: 'Rules',
+    columns: [
+      {
+        options: [
+          {
+            text: 'Rules of Conduct: Game',
+            isLink: true,
+            redirect: '/game-rules',
+          },
+          {
+            text: 'Rules of Conduct: Discord',
+            isLink: true,
+            redirect: '/discord-rules',
+          },
+        ]
+      }
+    ]
+  }
 ];
 
 const rightContent = [
