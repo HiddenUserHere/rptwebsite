@@ -16,6 +16,11 @@ const leftContent = [
       {
         options: [
           {
+            text: 'Character Skills',
+            isLink: true,
+            redirect: '/character-skills',
+          },
+          {
             text: 'Experience Table',
             isLink: true,
             redirect: '/exp-table'

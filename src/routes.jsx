@@ -8,6 +8,7 @@ import Ranking from './pages/Ranking/index.jsx';
 import MixList from './pages/MixList/index.jsx';
 import ItemList from './pages/ItemList/index.jsx';
 import ExperienceTable from './pages/Guides/ExperienceTable/index.jsx';
+import CharacterSkills from './pages/Guides/CharacterSkills/index.jsx';
 
 
 const AppRoutes = createBrowserRouter([
@@ -43,6 +44,10 @@ const AppRoutes = createBrowserRouter([
         path: 'exp-table',
         element: <ExperienceTable/>,
       },
+      {
+        path: 'character-skills',
+        element: <CharacterSkills />
+      }
     ],
   },
 ]);
