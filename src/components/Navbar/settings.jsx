@@ -47,21 +47,21 @@ export const schema = {
   logoOffScroll: (
     <h2 className="off-scroll">
       <Link to="/">
-        <img src="../../assets/img/logo-desk-navbar-scrolled.png" alt="Regnum"></img>
+        <img src="src/assets/img/logo-desk-navbar-scrolled.png" alt="Regnum"></img>
       </Link>
     </h2>
   ),
   logoOnScroll: (
     <h2 className="on-scroll">
       <Link to="/">
-        <img src="../../assets/img/logo-desk-navbar-scrolled.png" alt="Regnum"></img>
+        <img src="src/assets/img/logo-desk-navbar-scrolled.png" alt="Regnum"></img>
       </Link>
     </h2>
   ),
   logoMobile: (
     <h2 className="logo-mobile">
       <Link to="/">
-        <img src="../../assets/img/logo-desk-navbar-scrolled.png" alt="Regnum"></img>
+        <img src="src/assets/img/logo-desk-navbar-scrolled.png" alt="Regnum"></img>
       </Link>
     </h2>
   ),
