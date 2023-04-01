@@ -1,7 +1,7 @@
 import React from 'react';
-import '../haru/download.css';
+import './styles.css';
 import { Link } from 'react-router-dom';
-import { GOOGLE_DRIVE_URL, MEDIAFIRE_URL } from '../settings.jsx';
+import { GOOGLE_DRIVE_URL, MEDIAFIRE_URL } from '../../settings.jsx';
 
 const Download = () => {
   return (
