@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Footer from './components/Footer/index.jsx';
 import SocialLinks from './components/SocialLinks';
 import schema from './layouts/schema.jsx';
 
