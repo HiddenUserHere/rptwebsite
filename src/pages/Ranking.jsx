@@ -2,7 +2,7 @@ import React from 'react';
 import '../haru/ranking.css';
 import { getRankingUrl } from '../settings.jsx';
 
-export default function Ranking() {
+const Ranking = () => {
   return (
     <div className="page-content-full ranking-page">
       <div className="page-content-header">
@@ -27,10 +27,12 @@ export default function Ranking() {
           Rankings
         </div>
         <div>
-          <iframe src={getRankingUrl()} width="100%" height="2000px"/>
+          <iframe src={ getRankingUrl() } width="100%" height="2000px"/>
         </div>
       </div>
       <div className="space"></div>
     </div>
   );
-}
+};
+
+export default Ranking;

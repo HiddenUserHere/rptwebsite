@@ -8,7 +8,7 @@ import schema from './layouts/schema.jsx';
 function App() {
   return (
     <div className="App">
-      <Navbar config={schema}/>
+      <Navbar config={ schema }/>
       <Outlet/>
       <Footer/>
       <SocialLinks/>
