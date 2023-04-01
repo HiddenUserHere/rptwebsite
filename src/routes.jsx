@@ -7,6 +7,7 @@ import Download from './pages/Download/index.jsx';
 import Ranking from './pages/Ranking/index.jsx';
 import MixList from './pages/Guides/MixList/index.jsx';
 import Notice from './routes/notice.jsx';
+import ItemList from './pages/Guides/ItemList/index.jsx';
 
 
 const AppRoutes = createBrowserRouter([
@@ -30,6 +31,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'mix-list',
         element: <MixList/>,
+      },
+      {
+        path: 'item-list',
+        element: <ItemList/>
       },
       {
         path: 'notice',

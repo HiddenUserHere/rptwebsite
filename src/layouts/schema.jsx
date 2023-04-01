@@ -25,6 +25,11 @@ const leftContent = [
     isLink: true,
     redirect: '/mix-list',
   },
+  {
+    text: 'Item List',
+    isLink: true,
+    redirect: '/item-list',
+  },
   { text: 'Ranking', isLink: true, redirect: '/ranking' }
 ];
 
