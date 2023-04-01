@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../../haru/home.css';
+import '../../pages/Home/styles.css';
 import { gameClasses } from './settings.jsx';
 
 const SliderClass = () => {
