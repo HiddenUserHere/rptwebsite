@@ -1,6 +1,6 @@
 import React from 'react';
-import '../haru/ranking.css';
-import { getRankingUrl } from '../settings.jsx';
+import './ranking.css';
+import { getRankingUrl } from './settings.js';
 
 const Ranking = () => {
   return (

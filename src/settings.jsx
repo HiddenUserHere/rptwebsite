@@ -9,15 +9,12 @@ export const DISCORD_URL = 'https://discord.gg/R47RarCebp';
 
 export const GAME_SERVER_BASE_URL = 'https://user.regnum.world';
 
-export const getRankingUrl = () => {
-  return new URL('guide/rankings.php', GAME_SERVER_BASE_URL).toString()
-};
 export const getUserPanelUrl = () => {
   return new URL('/userpanel', GAME_SERVER_BASE_URL).toString();
 };
 export const getRegisterUrl = () => {
-  return new URL ('/userpanel?page=Login&action=CreateAccount', GAME_SERVER_BASE_URL).toString();
-}
+  return new URL('/userpanel?page=Login&action=CreateAccount', GAME_SERVER_BASE_URL).toString();
+};
 
 /* Game Download */
 

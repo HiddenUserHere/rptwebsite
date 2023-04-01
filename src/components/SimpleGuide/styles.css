@@ -1,0 +1,12 @@
+.guide-page {
+    background-color: #070303;
+    background-image: url("../../assets/img/bg-ranking.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 0;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}

@@ -20,6 +20,11 @@ const leftContent = [
       },
     ]
   },
+  {
+    text: 'Mix List',
+    isLink: true,
+    redirect: '/mix-list',
+  },
   { text: 'Ranking', isLink: true, redirect: '/ranking' }
 ];
 

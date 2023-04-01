@@ -4,8 +4,10 @@ import App from './App.jsx';
 import ErrorPage from './routes/ErrorPage.jsx';
 import Home from './pages/Home/index.jsx';
 import Download from './pages/Download/index.jsx';
-import Ranking from './pages/Ranking.jsx';
+import Ranking from './pages/Ranking/index.jsx';
+import MixList from './pages/Guides/MixList/index.jsx';
 import Notice from './routes/notice.jsx';
+
 
 const AppRoutes = createBrowserRouter([
   {
@@ -24,6 +26,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'ranking',
         element: <Ranking/>,
+      },
+      {
+        path: 'mix-list',
+        element: <MixList/>,
       },
       {
         path: 'notice',
