@@ -18,7 +18,7 @@ const leftContent = [
           {
             text: 'Experience Table',
             isLink: true,
-            redirect: '/notice'
+            redirect: '/exp-table'
           }
         ]
       },

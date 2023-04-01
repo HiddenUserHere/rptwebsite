@@ -6,8 +6,8 @@ import Home from './pages/Home/index.jsx';
 import Download from './pages/Download/index.jsx';
 import Ranking from './pages/Ranking/index.jsx';
 import MixList from './pages/MixList/index.jsx';
-import Notice from './routes/notice.jsx';
 import ItemList from './pages/ItemList/index.jsx';
+import ExperienceTable from './pages/Guides/ExperienceTable/index.jsx';
 
 
 const AppRoutes = createBrowserRouter([
@@ -16,6 +16,7 @@ const AppRoutes = createBrowserRouter([
     element: <App/>,
     errorElement: <ErrorPage/>,
     children: [
+      // Root guides
       {
         path: '/',
         element: <Home/>,
@@ -36,9 +37,11 @@ const AppRoutes = createBrowserRouter([
         path: 'item-list',
         element: <ItemList/>
       },
+
+      // Game guides
       {
-        path: 'notice',
-        element: <Notice/>,
+        path: 'exp-table',
+        element: <ExperienceTable/>,
       },
     ],
   },
