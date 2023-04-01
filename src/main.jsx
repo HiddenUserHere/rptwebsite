@@ -5,7 +5,7 @@ import { createBrowserRouter , RouterProvider } from "react-router-dom";
 import Home from './routes/home';
 import Download from './routes/download';
 import ErrorPage from './routes/ErrorPage';
-import Ranking from './routes/ranking';
+import Ranking from './pages/ranking.jsx';
 import Notice from './routes/notice';
 
 
