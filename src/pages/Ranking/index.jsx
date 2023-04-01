@@ -1,5 +1,5 @@
 import React from 'react';
-import './ranking.css';
+import './styles.css';
 import { getRankingUrl } from './settings.js';
 
 const Ranking = () => {
