@@ -34,7 +34,11 @@ const leftContent = [
     isLink: true,
     redirect: '/item-list',
   },
-  { text: 'Ranking', isLink: true, redirect: '/ranking' }
+  {
+    text: 'Ranking',
+    isLink: true,
+    redirect: '/ranking',
+  }
 ];
 
 const rightContent = [];
