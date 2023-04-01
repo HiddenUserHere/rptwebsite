@@ -1,0 +1,36 @@
+.social-links {
+    width: 3em;
+    background-color: rgb(39, 28, 23, 0.8);
+    position: fixed;
+    padding: 1em;
+    border-radius: 0.4em 0 0 0.4em ;
+    top: 30%; /* posiciona a div no meio vertical da tela */
+    transform: translateY(-30%); /* alinha verticalmente a div */
+    right: 0;
+}
+
+.social-links li {
+    margin-top: 0.4em;
+    cursor: pointer;
+}
+
+.social-links a{
+    padding: 0.2em;
+    filter: invert(30%);
+
+}
+.social-links a:hover {
+    filter: invert(0%);
+    filter:brightness(150%)
+  }
+
+@media (max-width: 920px)  {
+
+    .social-links {
+        width: 6em;
+        height: auto;
+
+    }
+    
+
+  }
