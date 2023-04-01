@@ -46,7 +46,13 @@ const leftContent = [
   }
 ];
 
-const rightContent = [];
+const rightContent = [
+  {
+    text: 'User Panel',
+    isLink: true,
+    redirect: 'https://user.regnum.world/userpanel/',
+  }
+];
 
 export const schema = {
   logoOffScroll: (
