@@ -1,5 +1,3 @@
-
-
 .home {
     padding-top: 12em;
     background-color: #131416;
@@ -10,7 +8,6 @@
 }
 
 .content-header {
-
     height: 17em;
     width: 80%;
     margin-left: 10%;
@@ -23,7 +20,7 @@
     color: #e59c67;
     font-size: 0.8em;
     font-weight: 600;
-    font-family: "GothamLight";
+    font-family: "GothamLight", serif;
     text-shadow: rgba(0, 0, 0, 0.3) 0.1em 0.1em 0.2em
 }
 
@@ -37,7 +34,7 @@
     font-size: 2em;
     font-weight: 600;
     margin-top: 0.5em;
-    font-family: "Allroundgothic";
+    font-family: "Allroundgothic", serif;
     text-shadow: rgba(0, 0, 0, 0.3) 0.1em 0.1em 0.2em
 }
 
@@ -46,7 +43,7 @@
     font-size: 0.7em;
     font-weight: 100;
     letter-spacing: 0.1em;
-    font-family: "GothamLight";
+    font-family: "GothamLight", serif;
     text-shadow: rgba(0, 0, 0, 0.3) 0.1em 0.1em 0.2em
 }
 
@@ -58,9 +55,7 @@
 
 .content-header span:hover {
     color: #ffc697;
-
 }
-
 
 .button-header button {
     margin-top: 1em;
@@ -80,7 +75,7 @@
     text-transform: uppercase;
     transition: 1s;
     cursor: pointer;
-    font-family: "GothamBold";
+    font-family: "GothamBold", serif;
 }
 
 .button-header small {
@@ -93,8 +88,7 @@
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase;
-    font-family: "GothamLight";
-
+    font-family: "GothamLight", serif;
 }
 
 .button-header button:hover {
@@ -138,14 +132,14 @@
 }
 
 .notice h1 {
-    font-family: "GothamBold";
+    font-family: "GothamBold", serif;
     font-size: 1em;
     color: #222121;
     margin-bottom: 0.2em;
 }
 
 .notice h2 {
-    font-family: "GothamLight";
+    font-family: "GothamLight", serif;
     font-size: 0.9em;
     color: #3b3936;
 }
@@ -154,59 +148,19 @@
     color: #754d2d;
     font-size: 0.8em;
     font-weight: 200;
-    font-family: "GothamLight";
+    font-family: "GothamLight", serif;
 }
 
 .notice-divider img {
     width: 10em;
     margin-bottom: 0.2em;
-
 }
 
 .notice-image img {
     width: 17em;
 }
 
-.content-map {
-    width: 100%;
-    border: 0.1em solid rgb(223, 181, 104, 0.3);
-    height: 25em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    align-items: center;
-    text-align: center;
-    padding: 5em;
-    background-image: url("../src/assets/img/bg-map.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.content-map h1 {
-    font-size:0.6em;
-    color: #fff;
-    letter-spacing: 1em;
-    font-family: "GothamLight";
-}
-
-.content-map h2 {
-    font-size:2em;
-    color: #f6f6f6;
-    font-family: "Allroundgothic";
-
-}
-
-.content-map h3 {
-    font-family: "GothamLight";
-    font-size: 0.8em;
-    color: #f0e4dd;
-    margin-top: 1em;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-
-}
-
-.divider img{
+.divider img {
     margin-top: 0.6em;
     width: 15em;
 }
@@ -226,7 +180,6 @@
 
 .content-map button:hover {
     filter: brightness(150%);
-
 }
 
 .news-title {
@@ -235,13 +188,13 @@
     margin-bottom: 1em;
 }
 
-.news-title h1{
-    font-size:2em;
+.news-title h1 {
+    font-size: 2em;
     color: #f6f6f6;
-    font-family: "Allroundgothic";
+    font-family: "Allroundgothic", serif;
 }
 
-.news-title img{
+.news-title img {
     margin-top: 0.6em;
     width: 10em;
 }
@@ -260,7 +213,6 @@
     bottom: 1em;
     gap: 1em;
     display: flex;
-
 }
 
 .indicator-list {
@@ -270,6 +222,7 @@
     background-color: #edc579;
     transition: 200ms ease-in-out;
 }
+
 .indicator-list.select {
     transform: scale(1.4);
 }
@@ -297,7 +250,6 @@
     display: flex;
     position: relative;
     justify-content: center;
-    
 }
 
 .class-image {
@@ -306,34 +258,32 @@
     z-index: 1;
 }
 
-.class-image img{
+.class-image img {
     width: 30em;
     margin-left: 30%;
-    
 }
 
 .content-class2 {
     width: 50vw;
     height: 30em;
-    
 }
 
-.content-class2 h1{
+.content-class2 h1 {
     font-size: 2.2em;
-    font-family: "Allroundgothic";
+    font-family: "Allroundgothic", serif;
     text-transform: uppercase;
     color: #edc579
 }
 
-.content-class2 h2{
+.content-class2 h2 {
     font-size: 0.7em;
-    font-family: "GothamLight";
+    font-family: "GothamLight", serif;
     color: #d1ccc2
 }
 
-.content-class2 h3{
+.content-class2 h3 {
     font-size: 0.9em;
-    font-family: "GothamLight";
+    font-family: "GothamLight", serif;
     color: #dbc59b;
     margin-top: 0.5em;
     margin-bottom: 1em;
@@ -352,7 +302,6 @@
     z-index: -1;
 }
 
-
 @keyframes loading {
     0% {
         transform: rotate(0)
@@ -363,13 +312,12 @@
     }
 }
 
-
-.dividerclass img{
+.dividerclass img {
     width: 10em;
     margin-top: 0.5em;
 }
 
-.video-class{
+.video-class {
     width: 30em;
 }
 
@@ -380,30 +328,27 @@
     border: 0.1vw solid rgb(133, 115, 66, 0.5);
 }
 
-.video-content video[poster]{
+.video-content video[poster] {
     width: 30em;
     height: 16.9em;
 }
 
-.video-class.play+.buttonHandleVideo {
+.video-class.play + .buttonHandleVideo {
     opacity: 0;
 }
 
-.video-class.play:hover+.buttonHandleVideo {
+.video-class.play:hover + .buttonHandleVideo {
     opacity: 1 !important;
 }
 
-.buttonHandleVideo{
+.buttonHandleVideo {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%);
     transition: 20ms ease-in-out;
     background: transparent;
-    
-
 }
-
 
 .stylebtn {
     border: 0;
@@ -412,38 +357,29 @@
     height: 10em;
 }
 
-
-
-.buttonHandleVideo img{
+.buttonHandleVideo img {
     cursor: pointer;
     width: 3em;
 }
-
 
 .buttonHandleVideo:hover {
     opacity: 1 !important;
 }
 
-
-
-
-.btn-handle-slider button{
+.btn-handle-slider button {
     background: transparent;
     border: 0;
     margin: 3rem;
     cursor: pointer;
 }
 
-.btn-handle-slider button:hover{
+.btn-handle-slider button:hover {
     filter: brightness(150%);
 }
 
-.btn-handle-slider button img{
+.btn-handle-slider button img {
     width: 3rem;
 }
-
-
-
 
 /* Chrome, Safari, e navegadores baseados no WebKit */
 video::-webkit-media-controls-panel {
@@ -464,30 +400,21 @@ video::-ms-media-controls-panel {
     display: none !important;
 }
 
-
 @media (max-width: 920px) {
-
-
-
     .notice {
         width: 100%;
-        
     }
-    
-    .notice span{
+
+    .notice span {
         font-size: 1.5em;
-        
     }
 
-
-    .notice h1{
+    .notice h1 {
         font-size: 3em;
-        
     }
 
-    .notice h2{
+    .notice h2 {
         font-size: 2.5em;
-        
     }
 
     .notice-divider img {
@@ -499,9 +426,8 @@ video::-ms-media-controls-panel {
         height: 15em;
     }
 
-    .notice-image img{
+    .notice-image img {
         width: 100%;
-        
     }
 
     .content-header {
@@ -519,22 +445,21 @@ video::-ms-media-controls-panel {
         font-size: 2em;
     }
 
-    .content-header h2{
+    .content-header h2 {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
         font-size: 4em;
     }
 
-    .content-header h3{
+    .content-header h3 {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
         font-size: 3em;
     }
 
-    .content-header span{
-
+    .content-header span {
         font-size: 3em;
     }
 
@@ -553,8 +478,6 @@ video::-ms-media-controls-panel {
         text-align: center;
     }
 
-
-
     .news-title h1 {
         font-size: 4em;
         margin-top: 1em;
@@ -565,46 +488,9 @@ video::-ms-media-controls-panel {
         width: 34em;
     }
 
-    .content-map {  
-        height: auto;
-       
+    .divider img {
+        width: 35em;
     }
-
-    .divider img{  
-       width: 35em;
-       
-    }
-    
-    .content-map h1 {
-        font-size: 1em;
-       
-    }
-    
-    .content-map h2 {
-
-        font-size: 4em;
-       
-    
-    }
-    
-    .content-map h3 {
-
-        font-size: 3em;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-       
-       
-    
-    }
-    
-    .content-map button {
-
-        font-size: 3em;
-      
-    }
-
-
 
     .class-image {
         width: 0;
@@ -620,21 +506,20 @@ video::-ms-media-controls-panel {
         height: auto;
     }
 
-    .content-class2 h1{
+    .content-class2 h1 {
         font-size: 4em;
         margin-top: 1em;
     }
 
-    .content-class2 h2{
-        font-size: 2em;
-    }
-    
-    .content-class2 h3{
+    .content-class2 h2 {
         font-size: 2em;
     }
 
+    .content-class2 h3 {
+        font-size: 2em;
+    }
 
-    .dividerclass img{
+    .dividerclass img {
         width: 20em;
     }
 
@@ -647,15 +532,12 @@ video::-ms-media-controls-panel {
         margin-top: 10em;
     }
 
-    .video-class{
+    .video-class {
         width: 44vw;
         height: 20vw;
     }
-    
-    .btn-handle-slider button img{
+
+    .btn-handle-slider button img {
         width: 10em;
     }
-
 }
-
-  

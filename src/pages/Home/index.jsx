@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.css';
 import { Link } from 'react-router-dom';
-import News from '../../components/News.jsx';
 import SliderClass from '../../components/SliderClass/index.jsx';
 import '../../styles.css';
 import { getRegisterUrl } from '../../settings.jsx';
+import BossTime from './components/BossTime/index.jsx';
 
 const Home = () => {
   return (
@@ -24,23 +24,13 @@ const Home = () => {
         </div>
       </div>
 
-      {/*<div className="news-title"><h1>NEWS</h1>*/}
-      {/*  <img src="../src/assets/img/news/ornament2.png"></img></div>*/}
-      {/*<News/>*/}
-      <div className="content-map">
-        <h1>WELCOME ADVENTURER</h1>
-        <h2>NEW TO REGNUM WORLD?</h2>
-        <div className="divider"><img src="../src/assets/img/news/ornament2.png"></img></div>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo sequi eius quo laudantium rem sed,
-          iste repellendus veritatis? Officiis commodi quibusdam consequatur doloremque rem sint doloribus reiciendis
-          ipsa aperiam.</h3>
-        <button>LEARN MORE</button>
-      </div>
+      {/*<div className="news-title"><h1>NEWS</h1>*/ }
+      {/*  <img src="../src/assets/img/news/ornament2.png"></img></div>*/ }
+      {/*<News/>*/ }
+      <BossTime/>
       <SliderClass/>
       <div className="space"></div>
     </div>
-
-
   );
 };
 

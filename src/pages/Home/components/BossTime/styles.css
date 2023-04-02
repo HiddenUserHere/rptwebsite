@@ -1,0 +1,74 @@
+
+.content-map {
+    width: 100%;
+    border: 0.1em solid rgb(223, 181, 104, 0.3);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-image: url("../src/assets/img/bg-map.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boss-time {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.boss-time iframe {
+    margin: 0 auto;
+    display: block;
+    width: 908px !important;
+    height: 182px !important;
+}
+
+.content-map h1 {
+    font-size: 0.6em;
+    color: #fff;
+    letter-spacing: 1em;
+    font-family: "GothamLight", serif;
+}
+
+.content-map h2 {
+    font-size: 2em;
+    color: #f6f6f6;
+    font-family: "Allroundgothic", serif;
+}
+
+.content-map h3 {
+    font-family: "GothamLight", serif;
+    font-size: 0.8em;
+    color: #f0e4dd;
+    margin-top: 1em;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media (max-width: 920px) {
+    .content-map {
+        height: auto;
+    }
+
+    .content-map h1 {
+        font-size: 1em;
+    }
+
+    .content-map h2 {
+        font-size: 4em;
+    }
+
+    .content-map h3 {
+        font-size: 3em;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .content-map button {
+        font-size: 3em;
+    }
+}
