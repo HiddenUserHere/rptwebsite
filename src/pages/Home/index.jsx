@@ -24,9 +24,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="news-title"><h1>NEWS</h1>
-        <img src="../src/assets/img/news/ornament2.png"></img></div>
-      <News/>
+      {/*<div className="news-title"><h1>NEWS</h1>*/}
+      {/*  <img src="../src/assets/img/news/ornament2.png"></img></div>*/}
+      {/*<News/>*/}
       <div className="content-map">
         <h1>WELCOME ADVENTURER</h1>
         <h2>NEW TO REGNUM WORLD?</h2>
