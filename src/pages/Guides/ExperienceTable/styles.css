@@ -1,0 +1,34 @@
+.exp-table-content {
+    width: 100%;
+}
+
+.exp-table {
+    padding-top: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.exp-table table {
+    border: 2px solid #3b2517;
+    border-spacing: 0;
+}
+
+.exp-table thead {
+    text-align: left;
+    background: #3B2517;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.exp-table > table > thead > tr > td {
+    font-family: 'Allroundgothic', serif;
+    font-weight: bold;
+    color: #fff;
+    background: #3B2517;
+}
+
+.exp-table > table > tbody > tr > td {
+    font-family: 'GothamLight', serif;
+    font-weight: bold;
+    border: 1px solid #3B2517;
+}
