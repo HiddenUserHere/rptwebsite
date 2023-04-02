@@ -12,11 +12,6 @@ const leftContent = [
     redirect: '/download'
   },
   {
-    text: 'Rankings',
-    isLink: true,
-    redirect: '/ranking',
-  },
-  {
     text: 'Game Guides',
     columns: [
       {
@@ -34,6 +29,11 @@ const leftContent = [
         ]
       },
     ]
+  },
+  {
+    text: 'Rankings',
+    isLink: true,
+    redirect: '/ranking',
   },
   {
     text: 'Mix List',
