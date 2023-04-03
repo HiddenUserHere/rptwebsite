@@ -1,15 +1,17 @@
+import { React } from 'react';
 import { Link } from 'react-router-dom';
+import logoScrolled from '../../assets/img/logo-desk-navbar-scrolled.png';
 
 const leftContent = [
   {
     text: 'Home',
     isLink: true,
-    redirect: '/'
+    redirect: '/',
   },
   {
     text: 'Downloads',
     isLink: true,
-    redirect: '/download'
+    redirect: '/download',
   },
   {
     text: 'Game Guides',
@@ -24,11 +26,11 @@ const leftContent = [
           {
             text: 'Experience Table',
             isLink: true,
-            redirect: '/exp-table'
-          }
-        ]
+            redirect: '/exp-table',
+          },
+        ],
       },
-    ]
+    ],
   },
   {
     text: 'Rankings',
@@ -60,10 +62,10 @@ const leftContent = [
             isLink: true,
             redirect: '/discord-rules',
           },
-        ]
-      }
-    ]
-  }
+        ],
+      },
+    ],
+  },
 ];
 
 const rightContent = [
@@ -71,28 +73,28 @@ const rightContent = [
     text: 'User Panel',
     isLink: true,
     redirect: 'https://user.regnum.world/userpanel/',
-  }
+  },
 ];
 
 export const schema = {
   logoOffScroll: (
     <h2 className="off-scroll">
       <Link to="/">
-        <img src="src/assets/img/logo-desk-navbar-scrolled.png" alt="Regnum"></img>
+        <img src={logoScrolled} alt="Regnum"></img>
       </Link>
     </h2>
   ),
   logoOnScroll: (
     <h2 className="on-scroll">
       <Link to="/">
-        <img src="src/assets/img/logo-desk-navbar-scrolled.png" alt="Regnum"></img>
+        <img src={logoScrolled} alt="Regnum"></img>
       </Link>
     </h2>
   ),
   logoMobile: (
     <h2 className="logo-mobile">
       <Link to="/">
-        <img src="src/assets/img/logo-desk-navbar-scrolled.png" alt="Regnum"></img>
+        <img src={logoScrolled} alt="Regnum"></img>
       </Link>
     </h2>
   ),

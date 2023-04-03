@@ -15,14 +15,15 @@
     animation-duration: 1s;
 }
 
-.iconranking  {
+.iconranking {
     margin-top: 1em;
 }
+
 .iconranking img {
     width: 5em;
 }
 
-.button-toggle-ranking{
+.button-toggle-ranking {
     padding: 0.5em;
     font-size: 1em;
     background-color: #978f7f;
@@ -31,7 +32,7 @@
     cursor: pointer;
 }
 
-.button-toggle-ranking:hover{
+.button-toggle-ranking:hover {
     filter: brightness(120%);
 }
 
@@ -44,7 +45,7 @@
     width: 99%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-   
+
 }
 
 .ranking-content2 table {
@@ -52,10 +53,11 @@
     -moz-box-shadow: 0em 1em 1em rgba(8, 8, 8, 0.1);
     box-shadow: 0em 1em 1em rgba(0, 0, 0, 0.1);
 }
+
 .ranking-content2 table,
 th,
 td {
-    border: 0px ;
+    border: 0px;
     padding: 0.5em;
     font-size: 1em;
     width: 81vw;
@@ -64,7 +66,7 @@ td {
 
 .ranking-content2 tr {
     background-color: #e2d9ca;
-    
+
 
 }
 
@@ -72,15 +74,12 @@ td {
     filter: brightness(105%);
 }
 
-
 @media (max-width: 920px) {
-
-
     .iconranking img {
         width: 15em;
     }
-    
-    .button-toggle-ranking{
+
+    .button-toggle-ranking {
         padding: 0.5em;
         font-size: 3em;
         background-color: #978f7f;
@@ -88,27 +87,28 @@ td {
         margin: 0.4em;
         cursor: pointer;
     }
-    
+
 
     .ranking-content2 table,
     th,
     td {
-        border: 0px ;
+        border: 0px;
         padding: 0.5em;
         font-size: 3em;
         width: 81vw;
         color: #000;
     }
-    
+
     .ranking-content2 tr {
         background-color: #e2d9ca;
-        
-    
+
+
     }
-    
+
     .ranking-content2 tr:hover {
         filter: brightness(105%);
     }
+
     .Select {
         background-color: #2a1e18;
         color: #fff;
