@@ -31,7 +31,6 @@ nav ul li {
     margin-right: 10px;
 }
 
-
 .footer-buttons {
     width: 100%;
     align-items: center;
@@ -102,13 +101,7 @@ nav ul li {
     fill: red;
 }
 
-
-
 @media (max-width: 920px) {
-    nav ul {
-
-    }
-
     nav ul li {
         font-size: 2em;
     }
@@ -121,7 +114,6 @@ nav ul li {
         display: inline-block;
         margin-right: 10px;
     }
-
 
     .footer-buttons {
         display: none;
