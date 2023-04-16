@@ -28,6 +28,11 @@ const leftContent = [
             isLink: true,
             redirect: '/exp-table',
           },
+          {
+            text: 'Share Password System',
+            isLink: true,
+            redirect: '/share-password-system',
+          },
         ],
       },
     ],

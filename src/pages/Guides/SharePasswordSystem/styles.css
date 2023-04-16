@@ -1,0 +1,15 @@
+.guide-content {
+    font-family: 'GothamLight', serif;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000 !important;
+}
+
+p {
+    text-align: justify;
+    color: #000 !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

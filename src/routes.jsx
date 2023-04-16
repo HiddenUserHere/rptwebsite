@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import Download from './pages/Download/index.jsx';
 import CharacterSkills from './pages/Guides/CharacterSkills/index.jsx';
+import SharePasswordSystem from './pages/Guides/SharePasswordSystem/index.jsx';
 import ExperienceTable from './pages/Guides/ExperienceTable/index.jsx';
 import Home from './pages/Home/index.jsx';
 import ItemList from './pages/ItemList/index.jsx';
@@ -48,6 +49,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'character-skills',
         element: <CharacterSkills />,
+      },
+      {
+        path: 'share-password-system',
+        element: <SharePasswordSystem />,
       },
 
       // Rules
