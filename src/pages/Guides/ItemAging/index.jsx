@@ -207,7 +207,7 @@ const ItemAging = () => {
       <tbody>
         {agingCosts.slice(0, 18).map((value, index) => (
           <tr key={index}>
-            <td>+{index}</td>
+            <td>+{index + 1}</td>
             <td>Item Value x {value} </td>
           </tr>
         ))}
