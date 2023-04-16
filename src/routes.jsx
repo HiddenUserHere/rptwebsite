@@ -1,17 +1,21 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
-import Download from './pages/Download/index.jsx';
-import CharacterSkills from './pages/Guides/CharacterSkills/index.jsx';
-import SharePasswordSystem from './pages/Guides/SharePasswordSystem/index.jsx';
-import ExperienceTable from './pages/Guides/ExperienceTable/index.jsx';
+
+import ErrorPage from './routes/ErrorPage.jsx';
+
 import Home from './pages/Home/index.jsx';
+import Download from './pages/Download/index.jsx';
 import ItemList from './pages/ItemList/index.jsx';
 import MixList from './pages/MixList/index.jsx';
 import Ranking from './pages/Ranking/index.jsx';
 import DiscordRules from './pages/Rules/DiscordRules/index.jsx';
 import GameRules from './pages/Rules/GameRules/index.jsx';
-import ErrorPage from './routes/ErrorPage.jsx';
+
+import CharacterSkills from './pages/Guides/CharacterSkills/index.jsx';
+import SharePasswordSystem from './pages/Guides/SharePasswordSystem/index.jsx';
+import ExperienceTable from './pages/Guides/ExperienceTable/index.jsx';
+import ItemAging from './pages/Guides/ItemAging/index.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -53,6 +57,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'share-password-system',
         element: <SharePasswordSystem />,
+      },
+      {
+        path: 'item-aging',
+        element: <ItemAging />,
       },
 
       // Rules

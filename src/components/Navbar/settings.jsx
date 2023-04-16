@@ -33,6 +33,11 @@ const leftContent = [
             isLink: true,
             redirect: '/share-password-system',
           },
+          {
+            text: 'Item Aging',
+            isLink: true,
+            redirect: '/item-aging',
+          },
         ],
       },
     ],

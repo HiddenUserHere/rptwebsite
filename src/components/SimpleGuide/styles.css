@@ -24,11 +24,39 @@
     text-align: justify;
     color: #000 !important;
     padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .guide-content > h1 {
     padding-top: 15px;
+    font-size: 1.2vw;
+    font-weight: 900;
     text-align: left;
     color: #000 !important;
+}
+
+.guide-content > table {
+    margin-top: 15px;
+    border: 2px solid #3b2517;
+    border-spacing: 0;
+}
+
+.guide-content > table > thead {
+    text-align: left;
+    background: #3B2517;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.guide-content > table > thead > tr > td {
+    font-family: 'Allroundgothic', serif;
+    font-weight: bold;
+    color: #fff;
+    background: #3B2517;
+}
+
+.guide-content > table > tbody > tr > td {
+    font-family: 'GothamLight', serif;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid #3B2517;
 }
