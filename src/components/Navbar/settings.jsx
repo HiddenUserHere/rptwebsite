@@ -38,6 +38,11 @@ const leftContent = [
             isLink: true,
             redirect: '/item-aging',
           },
+          {
+            text: 'Glamorous Brush System',
+            isLink: true,
+            redirect: '/glamorous-brush-system',
+          },
         ],
       },
     ],

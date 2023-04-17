@@ -60,3 +60,20 @@
     text-align: left;
     border: 1px solid #3B2517;
 }
+
+u {
+    color: #000;
+    text-decoration: underline;
+}
+
+ul {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style-type: circle;
+    color: #000;
+    text-align: left;
+}
+
+li {
+    color: #000;
+}

@@ -16,6 +16,7 @@ import CharacterSkills from './pages/Guides/CharacterSkills/index.jsx';
 import SharePasswordSystem from './pages/Guides/SharePasswordSystem/index.jsx';
 import ExperienceTable from './pages/Guides/ExperienceTable/index.jsx';
 import ItemAging from './pages/Guides/ItemAging/index.jsx';
+import GlamorousBrushSystem from './pages/Guides/GlamorousBrushSystem/index.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'item-aging',
         element: <ItemAging />,
+      },
+      {
+        path: 'glamorous-brush-system',
+        element: <GlamorousBrushSystem />,
       },
 
       // Rules
