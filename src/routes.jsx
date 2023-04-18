@@ -17,6 +17,7 @@ import SharePasswordSystem from './pages/Guides/SharePasswordSystem/index.jsx';
 import ExperienceTable from './pages/Guides/ExperienceTable/index.jsx';
 import ItemAging from './pages/Guides/ItemAging/index.jsx';
 import GlamorousBrushSystem from './pages/Guides/GlamorousBrushSystem/index.jsx';
+import BuildUpdate from './pages/Guides/BuildUpdate/index.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'glamorous-brush-system',
         element: <GlamorousBrushSystem />,
+      },
+      {
+        path: 'build-update',
+        element: <BuildUpdate />,
       },
 
       // Rules

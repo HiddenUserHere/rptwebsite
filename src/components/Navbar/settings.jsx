@@ -43,6 +43,11 @@ const leftContent = [
             isLink: true,
             redirect: '/glamorous-brush-system',
           },
+          {
+            text: 'Build Update',
+            isLink: true,
+            redirect: '/build-update',
+          },
         ],
       },
     ],
