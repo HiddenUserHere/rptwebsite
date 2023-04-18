@@ -48,6 +48,11 @@ const leftContent = [
             isLink: true,
             redirect: '/build-update',
           },
+          {
+            text: 'Game Formulas',
+            isLink: true,
+            redirect: '/game-formulas',
+          },
         ],
       },
     ],
