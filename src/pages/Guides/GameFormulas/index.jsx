@@ -296,14 +296,14 @@ const GameFormulas = () => {
           <p>Assassin (with Melee Weapon):</p>
           <ul>
             <li>
-              MIN. ATK. POW. = 1 + ((Weapon MIN. ATK. POW. * ([(strength + 240) /
-              240] + [(spirit + 480) / 480] + [(talent + 420) / 420] + [(agility
-              + 400) / 400] - [(health + 500) / 400]))) / 2
+              MIN. ATK. POW. = 1 + ((Weapon MIN. ATK. POW. * ([(strength + 240)
+              / 240] + [(spirit + 480) / 480] + [(talent + 420) / 420] +
+              [(agility + 400) / 400] - [(health + 500) / 400]))) / 2
             </li>
             <li>
-              MAX. ATK. POW. = 3 + ((Weapon MAX. ATK. POW. * ([(strength + 240) /
-              240] + [(spirit + 480) / 480] + [(talent + 420) / 420] + [(agility
-              + 400) / 400] - [(health + 500) / 400]))) / 2
+              MAX. ATK. POW. = 3 + ((Weapon MAX. ATK. POW. * ([(strength + 240)
+              / 240] + [(spirit + 480) / 480] + [(talent + 420) / 420] +
+              [(agility + 400) / 400] - [(health + 500) / 400]))) / 2
             </li>
           </ul>
           <p>Shaman (with Magic Weapon):</p>
