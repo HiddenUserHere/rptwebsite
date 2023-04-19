@@ -53,6 +53,11 @@ const leftContent = [
             isLink: true,
             redirect: '/game-formulas',
           },
+          {
+            text: 'Clan System',
+            isLink: true,
+            redirect: '/clan-system',
+          },
         ],
       },
     ],

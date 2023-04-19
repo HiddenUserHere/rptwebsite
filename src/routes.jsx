@@ -19,6 +19,7 @@ import ItemAging from './pages/Guides/ItemAging/index.jsx';
 import GlamorousBrushSystem from './pages/Guides/GlamorousBrushSystem/index.jsx';
 import BuildUpdate from './pages/Guides/BuildUpdate/index.jsx';
 import GameFormulas from './pages/Guides/GameFormulas/index.jsx';
+import ClanSystem from './pages/Guides/ClanSystem/index.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -76,6 +77,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'game-formulas',
         element: <GameFormulas />,
+      },
+      {
+        path: 'clan-system',
+        element: <ClanSystem />,
       },
 
       // Rules
