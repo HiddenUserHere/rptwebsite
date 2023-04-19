@@ -20,6 +20,7 @@ import GlamorousBrushSystem from './pages/Guides/GlamorousBrushSystem/index.jsx'
 import BuildUpdate from './pages/Guides/BuildUpdate/index.jsx';
 import GameFormulas from './pages/Guides/GameFormulas/index.jsx';
 import ClanSystem from './pages/Guides/ClanSystem/index.jsx';
+import PetFocusSystem from './pages/Guides/PetFocusSystem/index.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -81,6 +82,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'clan-system',
         element: <ClanSystem />,
+      },
+      {
+        path: 'pet-focus-system',
+        element: <PetFocusSystem />,
       },
 
       // Rules

@@ -58,6 +58,11 @@ const leftContent = [
             isLink: true,
             redirect: '/clan-system',
           },
+          {
+            text: 'Pet Focus System',
+            isLink: true,
+            redirect: '/pet-focus-system',
+          },
         ],
       },
     ],
