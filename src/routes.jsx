@@ -24,6 +24,7 @@ import PetFocusSystem from './pages/Guides/PetFocusSystem/index.jsx';
 import ForceOrb from './pages/Guides/ForceOrb/index.jsx';
 import EmoticonSystem from './pages/Guides/EmoticonSystem/index.jsx';
 import DistributorSystem from './pages/Guides/DistributorSystem/index.jsx';
+import RespecItem from './pages/Guides/RespecItem/index.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -101,6 +102,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'item-distributor',
         element: <DistributorSystem />,
+      },
+      {
+        path: 'respec-item',
+        element: <RespecItem />,
       },
 
       // Rules

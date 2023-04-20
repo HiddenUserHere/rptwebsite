@@ -78,6 +78,11 @@ const leftContent = [
             isLink: true,
             redirect: '/item-distributor',
           },
+          {
+            text: 'Item Respec',
+            isLink: true,
+            redirect: '/respec-item',
+          },
         ],
       },
     ],
