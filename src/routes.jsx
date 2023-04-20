@@ -22,6 +22,7 @@ import GameFormulas from './pages/Guides/GameFormulas/index.jsx';
 import ClanSystem from './pages/Guides/ClanSystem/index.jsx';
 import PetFocusSystem from './pages/Guides/PetFocusSystem/index.jsx';
 import ForceOrb from './pages/Guides/ForceOrb/index.jsx';
+import EmoticonSystem from './pages/Guides/EmoticonSystem/index.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -91,6 +92,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'force-orb',
         element: <ForceOrb />,
+      },
+      {
+        path: 'emoticon-system',
+        element: <EmoticonSystem />,
       },
 
       // Rules

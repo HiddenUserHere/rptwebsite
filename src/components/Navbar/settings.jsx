@@ -68,6 +68,11 @@ const leftContent = [
             isLink: true,
             redirect: '/force-orb',
           },
+          {
+            text: 'Emoticon System',
+            isLink: true,
+            redirect: '/emoticon-system',
+          },
         ],
       },
     ],
