@@ -23,6 +23,7 @@ import ClanSystem from './pages/Guides/ClanSystem/index.jsx';
 import PetFocusSystem from './pages/Guides/PetFocusSystem/index.jsx';
 import ForceOrb from './pages/Guides/ForceOrb/index.jsx';
 import EmoticonSystem from './pages/Guides/EmoticonSystem/index.jsx';
+import DistributorSystem from './pages/Guides/DistributorSystem/index.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -96,6 +97,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'emoticon-system',
         element: <EmoticonSystem />,
+      },
+      {
+        path: 'item-distributor',
+        element: <DistributorSystem />,
       },
 
       // Rules

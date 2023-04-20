@@ -73,6 +73,11 @@ const leftContent = [
             isLink: true,
             redirect: '/emoticon-system',
           },
+          {
+            text: 'Item Distributor',
+            isLink: true,
+            redirect: '/item-distributor',
+          },
         ],
       },
     ],
