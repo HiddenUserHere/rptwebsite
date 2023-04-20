@@ -6,7 +6,7 @@ import './styles.css';
 const PetFocusSystem = () => {
   return (
     <SimpleGuide
-      pageTitle="Clan System"
+      pageTitle="Pet Focus System"
       pageDescription={
         <div>
           Pet Focus System is a powerful tool that allows players to

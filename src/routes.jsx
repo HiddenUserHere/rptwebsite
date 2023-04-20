@@ -21,6 +21,7 @@ import BuildUpdate from './pages/Guides/BuildUpdate/index.jsx';
 import GameFormulas from './pages/Guides/GameFormulas/index.jsx';
 import ClanSystem from './pages/Guides/ClanSystem/index.jsx';
 import PetFocusSystem from './pages/Guides/PetFocusSystem/index.jsx';
+import ForceOrb from './pages/Guides/ForceOrb/index.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -86,6 +87,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'pet-focus-system',
         element: <PetFocusSystem />,
+      },
+      {
+        path: 'force-orb',
+        element: <ForceOrb />,
       },
 
       // Rules

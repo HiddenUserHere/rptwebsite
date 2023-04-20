@@ -63,6 +63,11 @@ const leftContent = [
             isLink: true,
             redirect: '/pet-focus-system',
           },
+          {
+            text: 'Force Orb',
+            isLink: true,
+            redirect: '/force-orb',
+          },
         ],
       },
     ],
