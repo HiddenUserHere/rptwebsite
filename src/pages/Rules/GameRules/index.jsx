@@ -164,6 +164,22 @@ const GameRules = () => {
             Reports/Cases that do not follow the guidelines can be deleted
             without further notice.
           </h1>
+          <h1>
+            An important rule in online games is that players cannot leave their
+            characters in macro and AFK (away from the keyboard) for extended
+            periods of time. This means they cannot use programs or macros to
+            automatically perform repetitive actions while away from the
+            keyboard.
+          </h1>
+          <h1>
+            This rule is important to ensure fairness and fun for all players.
+            If a player uses a macro program to automate actions, he or she may
+            gain unfair advantages over other players, such as earning money or
+            items effortlessly. Furthermore, leaving the character AFK can
+            detract from other players&apos; gameplay experience, especially if
+            the character is blocking a hotspot or an important area of the
+            game.
+          </h1>
         </div>
       }
     />

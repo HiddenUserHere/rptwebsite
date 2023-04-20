@@ -1,0 +1,20 @@
+.glamorous-item-table {
+    width: 50%;
+    border: 0px !important;
+}
+
+.glamorous-item-table > tbody {
+    border: 0 !important;
+}
+
+.glamorous-item-table > tbody > tr > td {
+    border: 0 !important;
+}
+
+.glamorous-item {
+    width: 10%;
+}
+
+td > p {
+    color: #000;
+}

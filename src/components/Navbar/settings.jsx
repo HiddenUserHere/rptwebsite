@@ -28,6 +28,66 @@ const leftContent = [
             isLink: true,
             redirect: '/exp-table',
           },
+          {
+            text: 'Share Password System',
+            isLink: true,
+            redirect: '/share-password-system',
+          },
+          {
+            text: 'Item Aging',
+            isLink: true,
+            redirect: '/item-aging',
+          },
+          {
+            text: 'Glamorous Brush System',
+            isLink: true,
+            redirect: '/glamorous-brush-system',
+          },
+          {
+            text: 'Build Update',
+            isLink: true,
+            redirect: '/build-update',
+          },
+          {
+            text: 'Game Formulas',
+            isLink: true,
+            redirect: '/game-formulas',
+          },
+          {
+            text: 'Clan System',
+            isLink: true,
+            redirect: '/clan-system',
+          },
+          {
+            text: 'Pet Focus System',
+            isLink: true,
+            redirect: '/pet-focus-system',
+          },
+          {
+            text: 'Force Orb',
+            isLink: true,
+            redirect: '/force-orb',
+          },
+          {
+            text: 'Emoticon System',
+            isLink: true,
+            redirect: '/emoticon-system',
+          },
+          {
+            text: 'Item Distributor',
+            isLink: true,
+            redirect: '/item-distributor',
+          },
+          {
+            text: 'Item Respec',
+            isLink: true,
+            redirect: '/respec-item',
+          },
+          {
+            text: 'Item Link',
+            isLink: true,
+            redirect: '/item-link',
+          },
         ],
       },
     ],
