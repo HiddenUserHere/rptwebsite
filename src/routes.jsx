@@ -25,6 +25,7 @@ import ForceOrb from './pages/Guides/ForceOrb/index.jsx';
 import EmoticonSystem from './pages/Guides/EmoticonSystem/index.jsx';
 import DistributorSystem from './pages/Guides/DistributorSystem/index.jsx';
 import RespecItem from './pages/Guides/RespecItem/index.jsx';
+import LinkItem from './pages/Guides/LinkItem/index.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -106,6 +107,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'respec-item',
         element: <RespecItem />,
+      },
+      {
+        path: 'item-link',
+        element: <LinkItem />,
       },
 
       // Rules

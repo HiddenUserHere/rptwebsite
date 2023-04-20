@@ -83,6 +83,11 @@ const leftContent = [
             isLink: true,
             redirect: '/respec-item',
           },
+          {
+            text: 'Item Link',
+            isLink: true,
+            redirect: '/item-link',
+          },
         ],
       },
     ],
