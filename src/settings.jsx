@@ -22,6 +22,6 @@ export const getRegisterUrl = () => {
 /* Game Download */
 
 export const MEDIAFIRE_URL =
-  'https://www.mediafire.com/file/shqb5i1v8mp4cp9/client2746.zip/file';
+  'https://www.mediafire.com/file/mhcrdkvsqjpzka1/rPTClient2787.zip/file';
 export const GOOGLE_DRIVE_URL =
-  'https://drive.google.com/u/0/uc?id=1QjpCJ7XUNJZfy05IPspd0i6HjHYN2eLE&export=download';
+  'https://drive.google.com/u/4/uc?id=1bBEFrnDYipnVLnwydGBFx_u4Jji1W12w&export=download';
