@@ -1,11 +1,11 @@
 .guide-content > ul > li {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
 .guide-content > ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .guide-content > .topic {
-    text-decoration: underline;
+  text-decoration: underline;
 }

@@ -9,8 +9,10 @@ const Footer = () => {
     <footer>
       <nav>
         <div className="menu-footer">
-          <Link to="/terms-of-service">Terms of Service</Link>{' | '}
-          <Link to="/privacy-policy">Privacy Policy</Link>{' | '}
+          <Link to="/terms-of-service">Terms of Service</Link>
+          {' | '}
+          <Link to="/privacy-policy">Privacy Policy</Link>
+          {' | '}
           <Link to="/refund-policy">Refund Policy</Link>
         </div>
         <div className="haru">

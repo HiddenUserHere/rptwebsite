@@ -1,16 +1,16 @@
 .accepted-aging-items-table {
-    width: 30%;
+  width: 30%;
 }
 
 .aging-stones-table {
-    width: 40%;
+  width: 40%;
 }
 
 .aging-chances-table > thead > tr > td {
-    text-align: center;
-    color: #000;
+  text-align: center;
+  color: #000;
 }
 
 .aging-cost-table {
-    width: 30%;
+  width: 30%;
 }
