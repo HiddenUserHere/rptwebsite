@@ -27,6 +27,10 @@ import DistributorSystem from './pages/Guides/DistributorSystem/index.jsx';
 import RespecItem from './pages/Guides/RespecItem/index.jsx';
 import LinkItem from './pages/Guides/LinkItem/index.jsx';
 
+import Terms from './pages/Terms/index.jsx';
+import PrivacyPolicy from './pages/PrivacyPolicy/index.jsx';
+import RefundPolicy from './pages/RefundPolicy/index.jsx';
+
 const AppRoutes = createBrowserRouter([
   {
     path: '/',
@@ -121,6 +125,20 @@ const AppRoutes = createBrowserRouter([
       {
         path: 'game-rules',
         element: <GameRules />,
+      },
+
+      // Footer
+      {
+        path: 'terms-of-service',
+        element: <Terms />,
+      },
+      {
+        path: 'privacy-policy',
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: 'refund-policy',
+        element: <RefundPolicy />,
       },
     ],
   },

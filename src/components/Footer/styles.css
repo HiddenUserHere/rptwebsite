@@ -101,6 +101,23 @@ nav ul li {
     fill: red;
 }
 
+.menu-footer {
+    margin-top: 20px;
+    font-family: 'GothamLight', serif;
+    font-size: 12pt;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-footer a {
+    font-family: 'GothamLight', serif;
+    font-size: 12pt;
+}
+
+.menu-footer a:hover {
+    color: #e4cca5;
+}
+
 @media (max-width: 920px) {
     nav ul li {
         font-size: 2em;
