@@ -23,14 +23,15 @@ const PrivacyPolicy = () => {
           <h1>Privacy Policy</h1>
           <p>
             This privacy policy has been compiled to better serve those who are
-            concerned with how their 'personally identifiable information' (pii)
-            is being used online. pii, as used in us privacy law and information
-            security, is information that can be used on its own or with other
-            information to identify, contact, or locate a single person, or to
-            identify an individual in context. please read our privacy policy
-            carefully to get a clear understanding of how we collect, use,
-            protect or otherwise handle your personally identifiable information
-            in accordance with our website.
+            concerned with how their &lsquo;personally identifiable
+            information&lsquo; (pii) is being used online. pii, as used in us
+            privacy law and information security, is information that can be
+            used on its own or with other information to identify, contact, or
+            locate a single person, or to identify an individual in context.
+            please read our privacy policy carefully to get a clear
+            understanding of how we collect, use, protect or otherwise handle
+            your personally identifiable information in accordance with our
+            website.
           </p>
 
           <h1>
@@ -75,25 +76,25 @@ const PrivacyPolicy = () => {
             provider and are not stored or processed on our servers.
           </p>
 
-          <h1>Do we use 'cookies'?</h1>
+          <h1>Do we use &lsquo;cookies&lsquo;?</h1>
           <p>
             Yes. cookies are small files that a site or its service provider
-            transfers to your computer's hard drive through your web browser (if
-            you allow) that enables the site's or service provider's systems to
-            recognize your browser and capture and remember certain information.
-            for instance, we use cookies to help us automatically remember you
-            for your next visit. they are also used to help us understand your
-            preferences based on previous or current site activity, which
-            enables us to provide you with improved services. we also use
-            cookies to help us compile aggregate data about site traffic and
-            site interaction so that we can offer better site experiences and
-            tools in the future. We use cookies to: understand and save user's
-            preferences for future visits. You can choose to have your computer
-            warn you each time a cookie is being sent, or you can choose to turn
-            off all cookies. you do this through your browser (like internet
-            explorer) settings. each browser is a little different, so look at
-            your browser's help menu to learn the correct way to modify your
-            cookies.
+            transfers to your computer&lsquo;s hard drive through your web
+            browser (if you allow) that enables the site&lsquo;s or service
+            provider&lsquo;s systems to recognize your browser and capture and
+            remember certain information. for instance, we use cookies to help
+            us automatically remember you for your next visit. they are also
+            used to help us understand your preferences based on previous or
+            current site activity, which enables us to provide you with improved
+            services. we also use cookies to help us compile aggregate data
+            about site traffic and site interaction so that we can offer better
+            site experiences and tools in the future. We use cookies to:
+            understand and save user&lsquo;s preferences for future visits. You
+            can choose to have your computer warn you each time a cookie is
+            being sent, or you can choose to turn off all cookies. you do this
+            through your browser (like internet explorer) settings. each browser
+            is a little different, so look at your browser&lsquo;s help menu to
+            learn the correct way to modify your cookies.
           </p>
 
           <h1>If users disable cookies in their browser:</h1>
